@@ -12,3 +12,4 @@ judge_outputs/judged__case_i_10_samples__defer_to_users__alpha_1.0__20260915_014
 /agentic_setup/user_assistant_prepending_vllm_kto.py
 /agentic_setup/user_assistant_prepending_vllm_lda_hybrid.py
 /agentic_setup/user_prepending_tree.py
+test.sh
