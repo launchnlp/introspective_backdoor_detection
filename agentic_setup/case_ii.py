@@ -34,9 +34,9 @@ TOP_K             = 20
 MAX_MODEL_LEN     = 24576
 LORA_RANK         = 128
 VLLM_GPU_MEM_UTIL = 0.70
-AUDITOR_GPU       = "0,1"
-ASSISTANT_GPU     = "2,3"
-TENSOR_PARALLEL   = len(AUDITOR_GPU.split(","))   # vLLM shards across all auditor GPUs
+AUDITOR_GPU       = "0"
+ASSISTANT_GPU     = "1"
+TENSOR_PARALLEL   = len(AUDITOR_GPU.split(","))   
 DTYPE             = torch.bfloat16
 OUTPUT_DIR        = Path("./agentic_audit_outputs/case_ii_samples")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

@@ -18,3 +18,5 @@ __pycache__
 /test_outputs
 test.sh
 test.py
+/auditing-agents
+/auditbench_baselines
